@@ -765,15 +765,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + "JbxJHQe3N9RmMvAzXDprjhd5-gzGzoHsz")
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "HKD7KBre5NQozfrIqORjbp6R-gzGzoHsz")
         .done(function ({ api_server }) {
           var Counter = function (method, url, data) {
             return $.ajax({
               method: method,
               url: `https://${api_server}/1.1${url}`,
               headers: {
-                'X-LC-Id': "JbxJHQe3N9RmMvAzXDprjhd5-gzGzoHsz",
-                'X-LC-Key': "yiMVJFMAp3DYiEswrbTgtcja",
+                'X-LC-Id': "HKD7KBre5NQozfrIqORjbp6R-gzGzoHsz",
+                'X-LC-Key': "B7IlQBhNbMA8EJwK2gEIYVH4",
                 'Content-Type': 'application/json',
               },
               data: data,
